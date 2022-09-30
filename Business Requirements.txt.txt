@@ -1,0 +1,13 @@
+Over the forseeable future, I am planning to achieve two goals:
+a) Start a career as a Back-end engineer writing functional Scala code;
+b) Build an online shop selling bicycles as a side hassle.
+
+Therefore, I decided to build the backend system of my online store using Scala typelevel ecosystem. 
+
+At the start, I defined my business requirements:
+
+- I aim to sell bicycles, both normal and electric at the start. In the future I might consider other produces, i.e. clothes.
+
+- The backend system needs to provide data to a front end via an HTTP API which I have to define.
+- As an admin, I will be able to add bike brands, types as well as bikes to the catalogue. I will be able to change prices of the bikes.
+- 

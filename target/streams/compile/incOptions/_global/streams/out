@@ -1,0 +1,63 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\User\Programming\Scala\bikeshop\target\scala-2.13\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyName.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Company$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyName$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Company.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyID.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyID$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Companies.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyName.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Company$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyName$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Company.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyID.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompanyID$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Companies.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$BikeID$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	company$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	category$CategoryName$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	category$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Companies.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Bikes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	company$CompanyID.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	company$Company$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	company$CompanyName$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$Bike$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$CreateBike.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	category$CategoryID.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	category$Category$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	company$CompanyID$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	company$Company.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	category.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$Bike.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$BikeName$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$BikeInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	category$CategoryID$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$BikeName.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	category$CategoryName.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$BikeInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	category$Category.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	company$CompanyName.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$UpdateBike$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$CreateBike$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$BikeID.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Categories.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	bike$UpdateBike.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	company.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\User\Programming\Scala\bikeshop\target\scala-2.13\classes.bak[0m

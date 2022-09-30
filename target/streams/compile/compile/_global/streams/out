@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Programming\Scala\bikeshop\src\main\scala\bikeshop\domain\bike.scala:5:8: not found: object squants[0m
+[0m[[0m[31merror[0m] [0m[0mimport squants.market._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Programming\Scala\bikeshop\src\main\scala\bikeshop\domain\bike.scala:25:13: not found: type Money[0m
+[0m[[0m[31merror[0m] [0m[0m    price : Money[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\User\Programming\Scala\bikeshop\src\main\scala\bikeshop\domain\bike.scala:39:12: not found: type Money[0m
+[0m[[0m[31merror[0m] [0m[0m    price: Money[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
