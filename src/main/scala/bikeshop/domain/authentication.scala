@@ -8,6 +8,8 @@ object authentication {
 case class UserName(value: String)
 case class UserID(value: UUID)
 
+case class JwtToken(value: String)
+
 case class  Password(value: String)
 case class EncryptedPassword(value:String)
 

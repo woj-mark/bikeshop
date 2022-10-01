@@ -6,6 +6,12 @@ import bikeshop.domain.company._
 import cats.effect._
 import cats.syntax.all._
 
+
+/*
+Algebra for creatring and retrieving the bikes by company names or id.
+Allowance for a POST and PUT endpoints to create and update the bikes.
+*/
+
 trait Bikes[F[_]] {
     def getAll: F[List[Bike]]
     def findBy(company: CompanyName): F[List[Bike]]

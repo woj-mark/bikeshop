@@ -2,7 +2,7 @@ package bikeshop.domain
 
 import squants.market._
 import bikeshop.domain.bike._
-import bikeshop.domain.shopCart._
+import bikeshop.domain.basket._
 
 import java.util.UUID
 
