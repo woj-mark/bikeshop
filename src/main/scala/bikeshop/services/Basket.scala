@@ -3,6 +3,7 @@ package bikeshop.services
 import bikeshop.domain.bike._
 import bikeshop.domain.authentication._
 import bikeshop.domain.basket._
+import cats.implicits._
 
 /*
 Algebra enabling CRUD operations on the shopping basket
