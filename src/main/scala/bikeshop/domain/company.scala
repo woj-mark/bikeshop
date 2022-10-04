@@ -5,7 +5,6 @@ import derevo.derive
 import derevo.circe.magnolia.{ decoder, encoder }
 import io.circe.{ Decoder, Encoder }
 import derevo.cats._
-import io.estatico.newtype.macros.newtype
 
 
 
