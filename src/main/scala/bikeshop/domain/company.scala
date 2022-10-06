@@ -5,6 +5,9 @@ import derevo.derive
 import derevo.circe.magnolia.{ decoder, encoder }
 import io.circe.{ Decoder, Encoder }
 import derevo.cats._
+import eu.timepit.refined.types.string.NonEmptyString
+import bikeshop.ext.http4s.queryParam
+
 
 
 
@@ -18,4 +21,11 @@ case class CompanyName(value: String)
 
 @derive(decoder, encoder, eqv, show)
 case class Company(id:CompanyID, name: CompanyName)
+
+
+@derive(queryParam, show)
+@newtype
+case class CompanyParam(value: NonEmptyString) {
+def toDomain: BrandName = BrandName(value.toLowerCase.capitalize)
+  }
 }
