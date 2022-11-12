@@ -22,6 +22,9 @@ private[routes] val prefixPath = "/bikes"
 
 object CompanyQueryParam extends OptionalQueryParamDecoderMatcher[CompanyParam]("company")
 
+
+//Defining routes for the bikes, i.e. GET/
+//Using the query parameter matcher to query by companies
 private val httpRoutes: HttpRoutes[F] = HttpRoutes.of[F] {
 case GET -> Root :? CompanyQueryParam(company) =>
     Ok("OK")
