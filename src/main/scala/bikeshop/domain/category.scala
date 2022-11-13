@@ -10,6 +10,12 @@ import derevo.cats._
 import cats.instances.uuid
 
 
+
+/*
+Domain model for the bike categories 
+Each category is unique
+*/
+
 object category{
 
 @derive(decoder, encoder, eqv, show)

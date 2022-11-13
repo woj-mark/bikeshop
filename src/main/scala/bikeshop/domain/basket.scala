@@ -7,6 +7,12 @@ import squants.market._
 import java.util.UUID
 
 
+/*
+Domain model for the shopping basket
+Shopping basket is a simple key-value store of bikes and their quantities
+Total value of the cart in GBP
+*/
+
 object basket {
   
 case class Basket(

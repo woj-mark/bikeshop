@@ -4,6 +4,7 @@ import bikeshop.domain.category._
 
 import cats.effect._
 import cats.syntax.all._
+import org.http4s.circe.CirceEntityEncoder._
 
 
 /*

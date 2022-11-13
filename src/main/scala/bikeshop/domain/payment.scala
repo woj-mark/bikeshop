@@ -6,6 +6,12 @@ import bikeshop.domain.checkout.Card
 import cats.implicits._
 
 
+
+/*
+Domain model for payments
+*/
+
+
 object payment {
   
     case class Payment(
@@ -14,5 +20,5 @@ object payment {
         card:Card
     )
 
-    
+
 }

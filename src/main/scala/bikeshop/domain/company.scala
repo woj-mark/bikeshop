@@ -9,28 +9,32 @@ import bikeshop.ext.http4s.queryParam
 import io.estatico.newtype.macros.newtype
 import derevo.derive
 import eu.timepit.refined.types.string._
+import org.http4s.circe.CirceEntityEncoder._
+import eu.timepit.refined.types.string.NonEmptyString
 
 
 
+/*
+Domain model for the bike companies business domain
+The company should have a unique ID and name (cannot be replicated)
+*/
 
 object company{
 
-@derive(decoder, encoder, eqv, show) //This needs to be change to UUID, temporarily an Int
-case class CompanyID(value: Int)
+@derive(decoder, encoder, eqv, show) 
+ case class CompanyID(value: UUID)
 
 @derive(decoder, encoder, eqv, show)
-case class CompanyName(value: NonEmptyString)
+ case class CompanyName(value: NonEmptyString)
 
 @derive(decoder, encoder, eqv, show)
 case class Company(id:CompanyID, name: CompanyName)
 
 
 @derive(queryParam, show)
-@newtype
 case class CompanyParam(value: NonEmptyString) {
 def toDomain: CompanyName = CompanyName(value)
   } 
   
 }
 
- 

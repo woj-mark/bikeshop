@@ -22,6 +22,14 @@ import eu.timepit.refined.types.string.NonEmptyString
 import io.estatico.newtype.macros.newtype
 import squants.market._
 
+
+/*
+Domain model for the bike products on the website
+Each bike should have a unique identifier
+Price fields (GBP) represented using smarkets library
+*/
+
+
 object bike {
 
 @derive(decoder, encoder, keyDecoder, keyEncoder, eqv, show, uuid)    

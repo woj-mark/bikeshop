@@ -10,6 +10,12 @@ import java.util.UUID
 import io.estatico.newtype.NewType
 
 
+/*
+Domain model for the payments
+PaymentID to be provided by a 3rd party client
+*/
+
+
 object order {
   
     case class Order(
