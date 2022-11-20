@@ -7,6 +7,8 @@ import cats.implicits._
 
 /*
 Algebra enabling CRUD operations on the shopping basket
+
+PUT endpoint can be used to edit the quantity of bikes
 */
 
 trait ShoppingBasket[F[_]] {
